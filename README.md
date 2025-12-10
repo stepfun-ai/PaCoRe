@@ -150,7 +150,16 @@ You can directly use `vllm serve` to serve the model! More inference details of 
 
 *Figure 3 | Inference pipeline of PaCoRe. Each round launches broad parallel exploration, compacts the resulting trajectories into compacted messages, and feeds these messages together with the question forward to coordinate the next round.  Repeating this process $\hat{R}$ times yields multi-million-token effective TTC while respecting fixed context limits, with the final compacted message serving as the system’s answer.*
 
-Inference code coming soon!
+First, install this package:
+```bash
+pip install -e . 
+```
+Then, we assume you use vllm serve the model in your localhost with [PaCoRe-8B](https://huggingface.co/stepfun-ai/PaCoRe-8B) model. 
+Next, you can run our example inference code with PaCoRe-low inference setting:
+```
+python playground/example_batch_inference_pacore_low_1210.py
+```
+And then you can see dumped results in `outputs/example_batch_inference_pacore_low_1210/results.jsonl`!
 
 
 ## 🙏 Acknowledgements

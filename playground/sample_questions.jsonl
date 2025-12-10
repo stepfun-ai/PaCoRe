@@ -1,0 +1,5 @@
+{"id": "math_001", "messages": [{"role": "user", "content": "What is the sum of all integers from 1 to 100?"}], "ground_truth": {"answer": "5050"}, "category": "math"}
+{"id": "math_002", "messages": [{"role": "user", "content": "If a rectangle has a perimeter of 24 cm and its length is twice its width, what is its area?"}], "ground_truth": {"answer": "32 cm²"}, "category": "math"}
+{"id": "logic_001", "messages": [{"role": "user", "content": "There are 3 boxes. Box A says 'The prize is in Box B'. Box B says 'The prize is not in this box'. Box C says 'The prize is in this box'. Only one statement is true. Which box has the prize?"}], "ground_truth": {"answer": "Box B"}, "category": "logic"}
+{"id": "code_001", "messages": [{"role": "user", "content": "Write a Python function to find the longest palindromic substring in a given string."}], "category": "code"}
+{"id": "physics_001", "messages": [{"role": "user", "content": "A ball is thrown upward with an initial velocity of 20 m/s. Ignoring air resistance, how high will it go? (g = 10 m/s²)"}], "ground_truth": {"answer": "20 meters"}, "category": "physics"}
