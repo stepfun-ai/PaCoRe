@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[**Read the Paper**](https://github.com/stepfun-ai/PaCoRe/blob/main/pacore_report.pdf) | [**Download Models**](https://huggingface.co/stepfun-ai/PaCoRe-8B) | [**Training Data**](https://huggingface.co/datasets/stepfun-ai/PaCoRe-Train-8k)
+[**Read the Paper**](https://arxiv.org/abs/2601.05593) | [**Download Models**](https://huggingface.co/stepfun-ai/PaCoRe-8B) | [**Training Data**](https://huggingface.co/datasets/stepfun-ai/PaCoRe-Train-8k)
 
 </div>
 
@@ -191,9 +191,12 @@ If you are interested in our project and would like to contribute to the reasone
 
 ```bibtex
 @misc{pacore2025,
-  title={PaCoRe: Learning to Scale Test-Time Compute with Parallel Coordinated Reasoning},
-  author={Jingcheng Hu and Yinmin Zhang and Shijie Shang and Xiaobo Yang and Yue Peng and Zhewei Huang and Hebin Zhou and Xin Wu and Jie Cheng and Fanqi Wan and Xiangwen Kong and Chengyuan Yao and Ailin Huang and Hongyu Zhou and Qi Han and Zheng Ge and Daxin Jiang and Xiangyu Zhang and Heung-Yeung Shum},
-  year={2025},
-  url={[https://github.com/stepfun-ai/PaCoRe/blob/main/pacore_report.pdf](https://github.com/stepfun-ai/PaCoRe/blob/main/pacore_report.pdf)},
+      title={PaCoRe: Learning to Scale Test-Time Compute with Parallel Coordinated Reasoning}, 
+      author={Jingcheng Hu and Yinmin Zhang and Shijie Shang and Xiaobo Yang and Yue Peng and Zhewei Huang and Hebin Zhou and Xin Wu and Jie Cheng and Fanqi Wan and Xiangwen Kong and Chengyuan Yao and Kaiwen Yan and Ailin Huang and Hongyu Zhou and Qi Han and Zheng Ge and Daxin Jiang and Xiangyu Zhang and Heung-Yeung Shum},
+      year={2026},
+      eprint={2601.05593},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2601.05593}, 
 }
 ```
